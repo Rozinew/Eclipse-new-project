@@ -13,7 +13,7 @@ public class Implicitwait {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
+	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(100));
 		driver.get("https://www.google.co.in/");
 	   //WebDriverWait wait = new WebDriverWait(driver,30);
 	  // WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
